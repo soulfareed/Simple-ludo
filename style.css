@@ -1,0 +1,58 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Playfair Display", serif;
+}
+body {
+  background-color: rosybrown;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  max-width: 100%;
+}
+
+.size {
+  height: 10rem;
+  max-width: 100%;
+}
+
+.heading {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+button {
+  opacity: 1;
+  transition: 0.3s;
+  height: 30px;
+  width: 5rem;
+  background: coral;
+  border: none;
+  border-radius: 7px;
+  margin-top: 15px;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 5px coral;
+  font-size: 6rem;
+  color: #f6b93b;
+}
+
+p {
+  font-size: 3rem;
+  text-shadow: 1px 1px white;
+}
